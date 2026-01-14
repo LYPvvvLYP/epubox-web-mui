@@ -1,0 +1,15 @@
+<!-- mask-icon.svg (核心矢量文件，可直接使用) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- 圆圈元素：外层环形（可调整颜色适配不同场景） -->
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#2E7D32" stroke-width="24" stroke-linecap="round" />
+  <!-- 书本符号：简约扁平化设计，居中放置 -->
+  <g transform="translate(128, 160)">
+    <!-- 书脊 + 封底 -->
+    <rect x="0" y="0" width="32" height="192" fill="#2E7D32" rx="4" />
+    <!-- 封面 -->
+    <rect x="28" y="0" width="192" height="192" fill="#4CAF50" rx="4" transform="skewX(-10)" />
+    <!-- 书页细节（增加辨识度） -->
+    <line x1="40" y1="40" x2="40" y2="152" stroke="#FFFFFF" stroke-width="2" opacity="0.8" />
+    <line x1="40" y1="40" x2="200" y2="40" stroke="#FFFFFF" stroke-width="2" opacity="0.8" />
+  </g>
+</svg>
